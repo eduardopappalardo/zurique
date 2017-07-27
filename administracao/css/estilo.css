@@ -1,0 +1,60 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	border-style: none;
+	text-decoration: none;
+	font-family: "Times New Roman";
+	font-size: 18px;
+	color: rgb(70%, 30%, 30%);
+}
+body {
+	background: url("/imagem/logoInclinado2.png") repeat;
+	text-align: center;
+	font-style: italic;
+}
+label {
+	font-weight: bold;
+}
+#corpo {
+	margin: 10px auto;
+}
+#corpo, #menu, #conteudo {
+	width: 990px;
+}
+#menu, #conteudo {
+	margin-top: 10px;
+}
+#menu {
+	height: 54px;
+}
+#menu a span {
+	background: url("/imagem/menu.png") no-repeat;
+	width: 196px;
+	height: 54px;
+	margin-left: 68px;
+	padding-top: 10px;
+	display: block;
+	float: left;
+	cursor: pointer;
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+}
+.inputTexto {
+	background-color: #C79478;
+	border: 1px solid gold;
+	padding: 4px;
+	font-weight: bold;
+	color: white;
+}
+.inputBotao {
+	background: url("/imagem/botao.png") no-repeat;
+	width: 120px;
+	height: 33px;
+	cursor: pointer;
+	font-size: 20px;
+	color: white;
+}
+.menuFocado {
+	background: url("/imagem/menuFocado.png") no-repeat !important;
+}

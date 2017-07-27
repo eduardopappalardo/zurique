@@ -1,0 +1,139 @@
+/*
+	Cores
+	rgb(70%, 30%, 30%)
+	rgb(90%, 40%, 40%)
+	rgb(100%, 50%, 50%)
+	#835034
+	#C79478
+	#E9B69A
+	#FAC7AB
+*/
+* {
+	margin: 0px;
+	padding: 0px;
+	border-style: none;
+	text-decoration: none;
+	font-family: "Times New Roman";
+	font-size: 18px;
+	color: white;
+}
+body {
+	background: url("../imagem/logoInclinado.png") repeat;
+	text-align: center;
+	font-style: italic;
+}
+h1 {
+	font-size: 20px;
+	font-weight: bold;
+}
+label {
+	font-weight: bold;
+}
+p {
+	text-indent: 30px;
+}
+#corpo {
+	margin: 10px auto;
+}
+#corpo, #cabecalho, #menu, #conteudo, #rodape, .conteudoTopo, .conteudoRodape, #facebook {
+	width: 990px;
+}
+#menu, .conteudoTopo, #rodape, #facebook {
+	margin-top: 10px;
+}
+#cabecalho {
+	background: url("../imagem/banner.png") no-repeat;
+	_background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="imagem/banner.png");
+	height: 129px;
+}
+#menu {
+	height: 54px;
+}
+#menu a span {
+	background: url("../imagem/menu.png") no-repeat;
+	_background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="imagem/menu.png");
+	width: 196px;
+	height: 54px;
+	margin-left: 68px;
+	padding-top: 10px;
+	display: block;
+	float: left;
+	cursor: pointer;
+	font-size: 25px;
+	font-weight: bold;
+}
+#conteudo {
+	background: url("../imagem/conteudo.png") repeat-y;
+	padding: 0px 30px;
+}
+#quemSomos {
+}
+#produtos {
+}
+#fotos {
+	width: 930px;
+}
+#fotos a img {
+	margin: 5px;
+	border: 10px solid #E9B69A;
+	vertical-align: top;
+}
+#faleConosco {
+}
+#rodape {
+	background: url("../imagem/rodape.png") no-repeat;
+	_background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="imagem/rodape.png");
+	height: 95px;
+	padding-top: 10px;
+	font-weight: bold;
+}
+.inputTexto {
+	background-color: #C79478;
+	border: 1px solid gold;
+	padding: 4px;
+}
+.inputBotao {
+	background: url("../imagem/botao.png") no-repeat;
+	_background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="imagem/botao.png");
+	width: 120px;
+	height: 33px;
+	cursor: pointer;
+	font-size: 20px;
+}
+.menuFocado {
+	background: url("../imagem/menuFocado.png") no-repeat !important;
+	_background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="imagem/menuFocado.png") !important;
+}
+.fotoFocada {
+	border-color: white !important;
+}
+.conteudoTopo {
+	background: url("../imagem/conteudoTopo.png") no-repeat;
+	_background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="imagem/conteudoTopo.png");
+	height: 21px;
+}
+.conteudoRodape {
+	background: url("../imagem/conteudoRodape.png") no-repeat;
+	_background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="imagem/conteudoRodape.png");
+	height: 21px;
+}
+.quemSomosTexto {
+	width: 450px;
+	margin-top: 25px;
+	float: left;
+	text-align: justify;
+}
+.produtosTexto {
+	width: 450px;
+	margin-top: 25px;
+	padding-left: 25px;
+	float: left;
+	text-align: justify;
+}
